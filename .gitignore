@@ -1,0 +1,11 @@
+__pycache__
+parsons
+ok
+tests
+*.ok
+*.yaml
+.ok_history
+.ok_storage
+
+# specific
+construct_check.py
