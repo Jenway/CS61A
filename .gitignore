@@ -4,10 +4,15 @@ __pycache__/
 ok
 *.ok
 *.yaml
+
 ucb.py
+!/projects/*/ucb.py
+
 parsons/
 __init__.py
 construct_check.py
+
+!/projects/*/gui_files/
 
 !/projects/hog/hog.py
 !/projects/hog/tests/
@@ -15,7 +20,6 @@ construct_check.py
 /projects/hog/tests/check_strategy.py
 /projects/hog/tests/play_utils.py
 
-/projects/cats/*
 !/projects/cats/cats.py
 !/projects/cats/tests/
 /projects/cats/tests/__init__.py
