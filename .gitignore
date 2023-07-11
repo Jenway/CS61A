@@ -27,7 +27,6 @@ construct_check.py
 
 /labs/lab06/car.py
 
-/projects/ants/*
 !/projects/ants/ants.py
 !/projects/ants/tests/
 /projects/ants/tests/__init__.py
