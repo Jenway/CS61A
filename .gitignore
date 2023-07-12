@@ -25,13 +25,13 @@ construct_check.py
 /projects/cats/tests/__init__.py
 /projects/cats/tests/abstraction_check.py
 
-/labs/lab06/car.py
+/lab/lab06/car.py
 
 !/projects/ants/ants.py
 !/projects/ants/tests/
 /projects/ants/tests/__init__.py
 
-/labs/lab07/reverse_link_diagram.png
+/lab/lab07/reverse_link_diagram.png
 
 /projects/lambdaing/cardgame.py
 /projects/lambdaing/cards.py
@@ -39,8 +39,8 @@ construct_check.py
 editor/
 scheme
 
-/labs/lab11/pair.py
-/labs/lab11/scheme_tokens.py
+/lab/lab11/pair.py
+/lab/lab11/scheme_tokens.py
 
 !/projects/scheme/
 /projects/scheme/abstract_turtle/
@@ -54,6 +54,6 @@ scheme
 /projects/scheme/scheme_tokens.py
 /projects/scheme/scheme_utils.py
 
-/labs/lab13/lab13.lark
+/lab/lab13/lab13.lark
 
-/labs/lab14/lab14.lark
+/lab/lab14/lab14.lark
