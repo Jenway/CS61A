@@ -85,6 +85,14 @@ This week also include Project 0: lambda-ing
 
 ### week 11:
 ### week 12:
+
+#### 非常恼人的 BUG
+
+在做 EC 的时候，一直过不了，提示递归太多层了，于是我找了半天，没有办法只好从 GitHub 上找到一个前人 @ https://github.com/1eaff/ucb-cs61a/tree/master/projs/scheme做过的，下载下来挨个比对，比对了半天，终于发现在 scheme_forms 文件中有一段 #EC 的注释，具体的改正似乎是在 执行 scheme_eval 的时候，部分调用，增加了第三个参数 为 True，我不知道为什么这样改了之后就可以过了，很奇怪,似乎是实现尾递归优化后，修改的 scheme_eval 就添加了第三个参数，即是否开启尾递归优化，这样的化，就需要在之前实现的诸如加法、乘法中手动开启优化，显然不优化的话，给的测试就会爆堆栈，吧，总之找了很多，看到 @ 大概也和我一开始一样没有发现，在ta的代码里留下了
+https://github.com/YinY1/CS61A-su22/blob/master/proj/scheme/scheme_eval_apply.py#L153
+>   # strange that this is the same as the other answers, but it cannot pass ok test 
+>   # so fuck it
+
 ### week 13:
 ### week 14:
 ### week 15:
